@@ -1,9 +1,26 @@
-# BasicBankingSystem
+# Basic_Banking_System
+This is a simple Banking System made using PHP and JavaScript.
 
-Sparks Foundation Internship Project : Basic Banking System A Web Application used to transfer money between multiple users (Project contains 10 dummy users). A dummy user can also be created.
+# Restaurant-web
+Restaurant-web is a simple restaurant website template, build with HTML and CSS.
 
-Stack used - Front-end : HTML, CSS, Bootstrap & Javascript Back-end : PHP Database : MySQL
+# Build With
+<ul>
+  <li><a href="https://www.w3schools.com/html/">HTML</a> - Structure of Web Page</li>
+  <li><a href="https://www.w3schools.com/css/">CSS</a> - Styling of Web Page</li>
+  <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BootStrap</a> - Open-source CSS Framework</li>
+  <li><a href="https://www.w3schools.com/js/">JavaScript</a> - Programming Language for the Web Page</li>
+  <li><a href="https://www.w3schools.com/php/">PHP</a> - Server Scripting Language of Web Page</li>
+  <li><a href="https://www.w3schools.com/sql/">SQL</a> - Database</li>
+  <li><a href="https://fontawesome.com/">Font Awesome</a> - The iconic SVG, font, and CSS toolkit</li>
+  <li><a href="https://fonts.google.com/">Google Fonts</a> - Library of libre licensed fonts</li>
+</ul>
 
-Database contains two Tables- Users Table & Transaction Table
+# Author
+<a href="https://github.com/reddykumaraswamy">Reddy Kumaraswamy</a> (author)
 
-User table have basic fields such as name, email & current balance. Transaction table records all transfers happened along with their time. Flow of the Website: Home Page > View all Users > Select and View one User > Transfer Money > Select reciever > View all Users > View Transfer History.
+# Website Look - Image
+<img src="img/Project_view.jpeg">
+
+# Copyright & License
+ &copy;Reddy Kumaraswamy 2021 All Rights Reserved.

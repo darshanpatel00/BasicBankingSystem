@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("./img/Bank-bg1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.containe{
+    margin: 0 12%;
+    height: 140vh;
+    background-color: rgba(255, 244, 224,0.6);
+}
+
+/* Navigation bar */
+.navigatio{
+    background-color: cadetblue;
+    /* padding: 10px; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+nav{
+    align-items: center;
+    padding-right: 8px;
+}
+
+.logo{
+    float:left;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logo .logo-hlt{
+    color: rgb(255, 244, 224);
+}
+
+.logo img{
+    height: 30px;
+}
+
+ul li{
+  display: inline-block; 
+  padding:0 10px;
+  font-size:17px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 0.8px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+ul li:hover{
+  background-color: rgb(255, 244, 224);
+}
+
+ul li a{
+    text-decoration: none;
+    color: #111;
+}
+
+/* Introduction */
+.intro{
+text-align: center;
+font-size: 50px;
+letter-spacing: 10px;
+font-family: Ubuntu;
+position: relative;
+padding:4% 8%;
+color:black;
+}
+
+.cont{
+height:200px;
+width:300px;
+padding: 1%;
+margin: 0 auto;
+}
+
+button{
+height: 30%;
+width: 30%;
+}
+.contain{
+height:200px;
+width:400px;
+background-color:lightgray;
+padding: 1%;
+margin: 0 auto;
+}
+.choose{
+    font-size:1rem;
+    color:#fff;
+    font-style:Ubuntu;
+    font-weight:300;
+}
+
+/* footer section */
+footer{
+    margin-left: 12%;
+    width: 76%;
+    height: 40px;
+    background-color: #00a79d;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-left: 16px;
+  }
+  
+  .footer_logo{
+      font-weight: bold;
+      color: rgb(255, 244, 224);
+  }
+  
+  .social-icon{
+      margin-right: 16px;
+      line-height: 40px;
+  }
+    
+  .social-icon i{
+      color: #111;
+      font-size: 1rem;
+      padding-right: 20px;
+      cursor: pointer;
+  }
